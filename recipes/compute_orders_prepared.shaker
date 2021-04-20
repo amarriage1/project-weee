@@ -37,7 +37,7 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "\u0027teehee-222222\u0027",
+        "expression": "\u0027teehee-222222-333333\u0027",
         "column": "newcolumn_expression"
       },
       "alwaysShowComment": false
