@@ -26,8 +26,23 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "\u0027teehee\u0027",
+        "column": "newcolumn_expression"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +50,15 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "pages_visited": 113,
+    "tshirt_category": 155,
+    "order_date": 120,
+    "tshirt_quantity": 128,
+    "tshirt_price": 105,
+    "customer_id": 100,
+    "order_id": 120
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
