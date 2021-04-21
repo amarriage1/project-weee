@@ -43,7 +43,7 @@ attachment =     {
                     #"partitionId": "s3" # Set your partition here
                   }
                 }
-​
+
 # Add the attachment to the sender
 sender.set_params(sender="andrew.marriage@dataiku.com",
              recipient="andrew.marraige@dataiku.com", #multiple emails 
