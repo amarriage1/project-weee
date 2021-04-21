@@ -12,7 +12,7 @@ attachment =     {
                   "params": {
                     "exportParams": {
                       "destinationType": "DOWNLOAD",
-                      "destinationDatasetProjectKey": "BUNDLESS", # Set your project key here
+                      "destinationDatasetProjectKey": "DKU_CHURN", # Set your project key here
                       "overwriteDestinationDataset": False,
                       "selection": {
                         "samplingMethod": "FULL",
@@ -39,7 +39,7 @@ attachment =     {
                         }
                       }
                     },
-                    "attachedDataset": "orders_prepared", # Set your dataset here
+                    "attachedDataset": "unlabeled_customers_prepared", # Set your dataset here
                     #"partitionId": "s3" # Set your partition here
                   }
                 }
