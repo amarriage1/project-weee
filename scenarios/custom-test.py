@@ -39,7 +39,7 @@ attachment =     {
                         }
                       }
                     },
-                    "attachedDataset": "unlabeled_customers_prepared", # Set your dataset here
+                    "attachedDataset": "wtf", # Set your dataset here
                    # "partitionId": "1" # Set your partition here
                   }
                 }
