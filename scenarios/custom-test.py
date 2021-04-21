@@ -16,10 +16,10 @@ attachment =     {
                       "overwriteDestinationDataset": False,
                       "selection": {
                         "samplingMethod": "FULL",
-                        "partitionSelectionMethod": "ALL",
+                       # "partitionSelectionMethod": "ALL",
                         "targetRatio": 0.02,
                         "maxRecords": 100000,
-                        "selectedPartitions": [],
+                        #"selectedPartitions": [],
                         "ordering": {
                           "enabled": False,
                           "rules": []
@@ -40,7 +40,7 @@ attachment =     {
                       }
                     },
                     "attachedDataset": "unlabeled_customers_prepared", # Set your dataset here
-                    "partitionId": "1" # Set your partition here
+                   # "partitionId": "1" # Set your partition here
                   }
                 }
 
