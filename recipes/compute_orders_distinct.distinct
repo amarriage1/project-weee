@@ -63,6 +63,41 @@
   },
   "outputColumnNameOverrides": {},
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "order_date",
+            "type": "string"
+          },
+          {
+            "name": "pages_visited",
+            "type": "string"
+          },
+          {
+            "name": "order_id",
+            "type": "string"
+          },
+          {
+            "name": "customer_id",
+            "type": "string"
+          },
+          {
+            "name": "tshirt_category",
+            "type": "string"
+          },
+          {
+            "name": "tshirt_price",
+            "type": "string"
+          },
+          {
+            "name": "tshirt_quantity",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }
