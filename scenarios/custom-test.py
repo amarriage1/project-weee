@@ -1,11 +1,11 @@
 # Get senario handler
 from dataiku.scenario import Scenario
-​
+
 scenario = Scenario()
-​
+
 # Create a message sender
 sender = scenario.get_message_sender(channel_id =  "gmail") # A messaging channel
-​
+
 # Define your attachment
 attachment =     {
                   "type": "DATASET",
