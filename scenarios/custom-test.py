@@ -40,7 +40,7 @@ attachment =     {
                       }
                     },
                     "attachedDataset": "unlabeled_customers_prepared", # Set your dataset here
-                    #"partitionId": "s3" # Set your partition here
+                    "partitionId": "1" # Set your partition here
                   }
                 }
 
