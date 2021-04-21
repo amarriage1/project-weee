@@ -21,7 +21,16 @@
       "exportGitRepository": false,
       "exportInsightsData": false,
       "useManualPluginsInfo": false,
-      "includedDatasetsData": [],
+      "includedDatasetsData": [
+        {
+          "name": "orders_prepared",
+          "type": "Filesystem"
+        },
+        {
+          "name": "orders",
+          "type": "UploadedFiles"
+        }
+      ],
       "includedSavedModels": [],
       "includedManagedFolders": [],
       "shareAllInputDatasets": false
@@ -196,11 +205,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618926219871
+    "lastModifiedOn": 1619011406282
   },
   "creationTag": {
     "versionNumber": 0,
