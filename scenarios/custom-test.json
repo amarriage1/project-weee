@@ -5,11 +5,11 @@
   "name": "custom-test",
   "active": false,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1619041309192
+    "lastModifiedOn": 1619041428730
   },
   "checklists": {
     "checklists": []

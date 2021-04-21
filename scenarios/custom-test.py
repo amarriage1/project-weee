@@ -4,7 +4,7 @@ from dataiku.scenario import Scenario
 scenario = Scenario()
 ​
 # Create a message sender
-sender = scenario.get_message_sender(channel_id =  "jeddy") # A messaging channel
+sender = scenario.get_message_sender(channel_id =  "gmail") # A messaging channel
 ​
 # Define your attachment
 attachment =     {
@@ -12,7 +12,7 @@ attachment =     {
                   "params": {
                     "exportParams": {
                       "destinationType": "DOWNLOAD",
-                      "destinationDatasetProjectKey": "DISCRETEPARTITIONING", # Set your project key here
+                      "destinationDatasetProjectKey": "BUNDLESS", # Set your project key here
                       "overwriteDestinationDataset": False,
                       "selection": {
                         "samplingMethod": "FULL",
@@ -39,14 +39,14 @@ attachment =     {
                         }
                       }
                     },
-                    "attachedDataset": "customers_discrete", # Set your dataset here
-                    "partitionId": "s3" # Set your partition here
+                    "attachedDataset": "orders_prepared", # Set your dataset here
+                    #"partitionId": "s3" # Set your partition here
                   }
                 }
 ​
 # Add the attachment to the sender
-sender.set_params(sender="jed.dougherty@dataiku.com",
-             recipient="jed.dougherty@dataiku.com", #multiple emails 
+sender.set_params(sender="andrew.marriage@dataiku.com",
+             recipient="andrew.marraige@dataiku.com", #multiple emails 
              attachments = [attachment],
              subject="Hello Jed",
              message="Test to test the testy test.")
