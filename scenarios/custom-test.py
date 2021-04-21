@@ -46,7 +46,7 @@ attachment =     {
 
 # Add the attachment to the sender
 sender.set_params(sender="andrew.marriage@dataiku.com",
-             recipient="andrew.marraige@dataiku.com", #multiple emails 
+             recipient="andrew.marriage@dataiku.com", #multiple emails 
              attachments = [attachment],
              subject="Hello Jed",
              message="Test to test the testy test.")
