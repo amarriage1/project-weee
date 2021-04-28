@@ -181,7 +181,6 @@
     }
   },
   "name": "bundless",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -237,11 +236,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1619647102881
+    "lastModifiedOn": 1619647151296
   },
   "creationTag": {
     "versionNumber": 0,
@@ -251,7 +250,9 @@
     "lastModifiedOn": 1618925271432
   },
   "shortDesc": "The project *bundless* was created by Administrator on Apr 20th 2021",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
