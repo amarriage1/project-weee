@@ -40,10 +40,25 @@
   "permissions": [
     {
       "group": "Test_group",
-      "admin": true,
-      "readProjectContent": false,
-      "writeProjectContent": true,
-      "exportDatasetsData": true,
+      "admin": false,
+      "readProjectContent": true,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    {
+      "group": "another_one",
+      "admin": false,
+      "readProjectContent": true,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
       "readDashboards": false,
       "writeDashboards": false,
       "moderateDashboards": false,
@@ -221,11 +236,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1619014140260
+    "lastModifiedOn": 1619636579381
   },
   "creationTag": {
     "versionNumber": 0,
