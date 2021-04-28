@@ -180,7 +180,7 @@
       }
     }
   },
-  "name": "bundless",
+  "name": "bundless (dev-branch)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -236,11 +236,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1619647151296
+    "lastModifiedOn": 1619647155209
   },
   "creationTag": {
     "versionNumber": 0,
@@ -249,7 +249,7 @@
     },
     "lastModifiedOn": 1618925271432
   },
-  "shortDesc": "The project *bundless* was created by Administrator on Apr 20th 2021",
+  "shortDesc": "The project *bundless* was created by Administrator on Apr 20th 2021\nThe project *BUNDLESS_DEV_BRANCH* was copied from *BUNDLESS* by Administrator on Apr 28th 2021",
   "tags": [
     "duplicated"
   ],
